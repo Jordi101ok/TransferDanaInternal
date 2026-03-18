@@ -1,0 +1,6 @@
+@RESTAPITransaksi_Rekening_HostAddress = http://localhost:5222
+
+GET {{RESTAPITransaksi_Rekening_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
