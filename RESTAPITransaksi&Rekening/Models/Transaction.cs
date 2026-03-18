@@ -3,7 +3,7 @@
     public class Transaction
     {
         public Guid TransactionId { get; set; } = Guid.NewGuid();
-        public string AccountNameFrom { get; set; }
+        public string AccountNameFrom { get; set; } = string.Empty;
         public string AccountNumberFrom { get; set; }
         public string AccountNameTo { get; set; }
         public string AccountNumberTo { get; set; }
